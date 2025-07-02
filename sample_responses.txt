@@ -1,0 +1,205 @@
+// Each of the Correct answer was also given with a proper explaination
+
+
+==================================================
+🧠 Sample Response 1: YouTube Video - Model Context Protocol (MCP)
+==================================================
+
+Prompt:
+Generate 4 questions from a YouTube video https://www.youtube.com/watch?v=tzrwxLNHtRY using Educhain
+
+Response:
+Here are 4 questions generated from the YouTube video about Model Context Protocol (MCP):
+
+Question 1:
+What problem does Model Context Protocol (MCP) primarily aim to solve in AI application development?
+
+Options:
+A) Replacing the need for Large Language Models (LLMs)  
+B) Eliminating the use of APIs and external tools  
+C) Automating the entire AI application development process  
+D) Reducing the complexity and maintenance burden of glue code ✅
+
+---
+
+Question 2:
+In the context of MCP, what are the three capabilities that an MCP server can expose?
+
+Options:
+A) API, Database, and Algorithm  
+B) Tool, Resource, and Prompt ✅  
+C) Function, Data, and Instruction  
+D) Model, Context, and Protocol
+
+---
+
+Question 3:
+What is the role of 'glue code' in AI applications before the introduction of MCP?
+
+Options:
+A) Code that trains LLMs  
+B) Standardized MCP code  
+C) Code enabling LLM-tool interaction ✅  
+D) Code defining the user interface
+
+---
+
+Question 4:
+What is the purpose of the 'list tools' function in an MCP server?
+
+Options:
+A) To train the LLM on the available tools  
+B) To return all capabilities with descriptions ✅  
+C) To list all users  
+D) To update tool versions
+
+--------------------------------------------------
+
+
+==================================================
+📄 Sample Response 2: PDF File - Design and Implementation
+==================================================
+
+Prompt:
+Generate 5 questions from a data file pdf "3.5 Design and Implementation.pdf" using Educhain.
+
+Response:
+
+1. What is the primary function of the CPU (Central Processing Unit)?
+Options:
+- Displaying images on the screen  
+- Storing data permanently  
+- Executing instructions and performing calculations ✅  
+- Connecting to the internet  
+
+Explanation: The CPU processes instructions and performs calculations.
+
+---
+
+2. Which of the following is NOT a type of computer memory?
+Options:
+- RAM  
+- ROM  
+- Cache Memory  
+- GPU Memory ✅  
+
+Explanation: GPU memory is for graphics, not general-purpose system memory.
+
+---
+
+3. What does the acronym 'URL' stand for?
+Options:
+- Universal Rendering Language  
+- Uniform Resource Locator ✅  
+- User Related Link  
+- Unstructured Reference Library  
+
+---
+
+4. Which of the following is an example of an operating system?
+Options:
+- Microsoft Word  
+- Google Chrome  
+- Windows ✅  
+- Adobe Photoshop  
+
+---
+
+5. What is the purpose of a firewall?
+Options:
+- To speed up internet connection  
+- To protect a network from unauthorized access ✅  
+- To store large amounts of data  
+- To improve image quality  
+
+--------------------------------------------------
+
+
+==================================================
+🤖 Sample Response 3: MCQs on Topic "Machine Learning"
+==================================================
+
+Prompt:
+Generate 10 mcqs on the topic ml using educhain
+
+Response:
+
+1. Which of the following is NOT a type of machine learning?
+A) Supervised Learning  
+B) Unsupervised Learning  
+C) Reinforcement Learning  
+D) Symbolic Programming ✅  
+
+---
+
+2. What is the purpose of a validation set in machine learning?
+A) To train the model  
+B) To evaluate final performance  
+C) To tune hyperparameters ✅  
+D) To generate synthetic data  
+
+---
+
+3. Which algorithm is used for dimensionality reduction?
+A) Linear Regression  
+B) PCA ✅  
+C) KNN  
+D) Decision Tree  
+
+---
+
+4. What does 'overfitting' mean?
+A) Poor training performance  
+B) Learns noise, poor generalization ✅  
+C) Unable to learn  
+D) Perfect generalization  
+
+---
+
+5. Which metric is suitable for classification?
+A) MSE  
+B) R-squared  
+C) F1-score ✅  
+D) RMSE  
+
+---
+
+6. Goal of unsupervised learning?
+A) Predict with labels  
+B) Discover patterns in unlabeled data ✅  
+C) Maximize rewards  
+D) Predefined classification  
+
+---
+
+7. Technique for missing data?
+A) Normalization  
+B) Regularization  
+C) Imputation ✅  
+D) Cross-validation  
+
+---
+
+8. Purpose of regularization?
+A) Speed up training  
+B) Improve accuracy  
+C) Prevent overfitting ✅  
+D) Reduce training data  
+
+---
+
+9. Which is a supervised algorithm?
+A) K-Means  
+B) PCA  
+C) SVM ✅  
+D) Hierarchical Clustering  
+
+---
+
+10. What is a confusion matrix?
+A) For normalization  
+B) Performance table with TP, TN, FP, FN ✅  
+C) Pipeline diagram  
+D) Dimensionality reduction  
+
+--------------------------------------------------

@@ -25,9 +25,9 @@ def generate_questions_from_data(source: str, source_type: str, num: int) -> dic
     """Generate questions from a data file (pdf, txt, url) using Educhain."""
     return generate_questions_from_data_file(source, source_type, num)
 
-# Resource 1: Lesson Plan Generator
-@mcp.resource("lessonplan://{topic}/{duration}")
-def lesson_plan_resource(topic: str, duration: int) -> dict:
+# Tool 4: Lesson Plan Generator
+@mcp.tool()
+def lesson_plan_generator(topic: str, duration: int) -> dict:
     """Get lesson plan for a topic using Educhain."""
     return generate_lesson_plan(topic, duration)
 

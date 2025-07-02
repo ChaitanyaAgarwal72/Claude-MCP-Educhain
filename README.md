@@ -9,39 +9,38 @@ This project integrates the [Educhain](https://pypi.org/project/educhain/) libra
 - 📝 Generate Multiple Choice Questions (MCQs)
 - 🧠 Create structured lesson plans
 - 📺 Generate questions from YouTube videos
-- 🖼️ Generate questions from images
+- 📊 Generate questions from provided data source (e.g., text, pdf, url)
 - 🎨 Support for prompt templates
 - 🌐 Designed to work locally with Claude AI's Model Context Protocol (MCP)
 
 ---
 
 ## 📁 Folder Structure
-
 ```
 claude-mcp-educhain/
 ├── tools/
-│   ├── mcq_generator.py      # Tool: Generate MCQs
-│   ├── lesson_plan_gen.py    # Resource: Generate lesson plans
-│   ├── youtube_qna.py        # Tool: Questions from YouTube
-│   └── image_qna.py          # Tool: Questions from images
-├── mcp_server.py             # MCP server entry point
-├── requirements.txt          # Python dependencies
-├── sample_responses.txt      # Sample output (optional)
-├── .env                      # Optional environment config
-├── .gitignore               # Git ignore rules
-└── README.md                # Project documentation
+│   ├── mcq_generator.py      # Tool: Generate MCQs
+│   ├── lesson_plan_gen.py    # Resource: Generate lesson plans
+│   ├── youtube_qna.py        # Tool: Questions from YouTube
+│   └── ques_from_data.py     # Tool: Questions from data
+├── mcp_server.py             # MCP server entry point
+├── requirements.txt          # Python dependencies
+├── sample_responses.txt      # Sample output (optional)
+├── .env                      # Optional environment config
+├── .gitignore               # Git ignore rules
+└── README.md                # Project documentation
 ```
 
 ---
 
 ## 🧠 Available MCP Tools & Resources
 
-| Name                                | Type      | File               | Description                           |
-|-------------------------------------|-----------|--------------------|---------------------------------------|
-| `generate_multiple_choice_questions`| Tool      | `mcq_generator.py` | Generate MCQs for a given topic       |
-| `lessonplan://{topic}`              | Resource  | `lesson_plan_gen.py` | Returns a structured lesson plan    |
-| `generate_questions_from_youtube`   | Tool      | `youtube_qna.py`   | Extract questions from YouTube videos |
-| `generate_questions_from_image`     | Tool      | `image_qna.py`     | Generate questions from images        |
+| Name                                | Type      | File                 | Description                            |
+|-------------------------------------|-----------|----------------------|----------------------------------------|
+| `generate_multiple_choice_questions`| Tool      | `mcq_generator.py`   | Generate MCQs for a given topic        |
+| `lessonplan://{topic}`              | Resource  | `lesson_plan_gen.py` | Returns a structured lesson plan       |
+| `generate_questions_from_youtube`   | Tool      | `youtube_qna.py`     | Generate questions from YouTube videos |
+| `generate_questions_from_data`      | Tool      | `ques_from_data.py`  | Generate questions from provided data  |
 
 ---
 

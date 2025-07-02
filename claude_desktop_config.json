@@ -1,0 +1,13 @@
+// Configuration file for Claude Desktop to connect and launch the local MCP server.
+// Defines the command and arguments needed to run your custom Educhain MCP server.
+
+{
+  "mcpServers": {
+    "educhain": {
+      "command": "C:\\Users\\Chait\\OneDrive\\Desktop\\VSCode\\ML\\claude-mcp-educhain\\venv\\Scripts\\python.exe", // path to the python.exe file if using a virtual environment
+      "args": [
+        "C:\\Users\\Chait\\OneDrive\\Desktop\\VSCode\\ML\\claude-mcp-educhain\\mcp_server.py" // path to the mcp server file
+      ]
+    }
+  }
+}

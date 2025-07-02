@@ -1,24 +1,21 @@
-from educhain import Educhain
+from educhain import Educhain, LLMConfig
+from langchain_google_genai import ChatGoogleGenerativeAI
+import os
+from dotenv import load_dotenv
 
-# Initialize the Educhain client
-client = Educhain()
+load_dotenv()
 
-def generate_questions_from_image(image_path: str, num: int = 3, target_language: str = "en") -> dict:
-    """
-    Generate questions from an image using Educhain.
-
-    Args:
-        image_path (str): Path to the image file.
-        num (int): Number of questions to generate.
-        target_language (str): Output language for questions.
-
-    Returns:
-        dict: Dictionary of generated questions.
-    """
-    print(f"[TOOL] Image QnA called: {image_path}, num={num}, lang={target_language}")
-    questions = client.qna_engine.generate_questions_from_image(
-        image=image_path,
-        num=num,
-        target_language=target_language
+def generate_description_from_images(path: str):
+    model = ChatGoogleGenerativeAI(
+        model="gemini-2.0-flash",
+        google_api_key=os.getenv("GEMINI_API_KEY")
     )
-    return questions.dict()
+    config = LLMConfig(custom_model=model)
+    client = Educhain(config)
+
+    result = client.qna_engine.solve_doubt(
+        image_source=path,
+        prompt="Explain the diagram in detail",
+        detail_level = "High" 
+    )
+    return result.model_dump()

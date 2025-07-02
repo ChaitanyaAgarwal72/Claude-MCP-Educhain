@@ -1,4 +1,4 @@
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP # type: ignore
 from tools.mcq_generator import generate_mcqs
 from tools.lesson_plan_gen import generate_lesson_plan
 from tools.youtube_qna import generate_questions_from_youtube_video

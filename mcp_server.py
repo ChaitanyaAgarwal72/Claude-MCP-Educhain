@@ -19,7 +19,7 @@ def generate_questions_from_youtube(url: str, num: int) -> dict:
     """Generate questions from a YouTube video using Educhain."""
     return generate_questions_from_youtube_video(url, num)
 
-# Tool 3: Generate Description from Image
+# Tool 3: Generate Questions from Data File
 @mcp.tool()
 def generate_questions_from_data(source: str, source_type: str, num: int) -> dict:
     """Generate questions from a data file (pdf, txt, url) using Educhain."""

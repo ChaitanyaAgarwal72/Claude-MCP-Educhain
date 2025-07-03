@@ -87,6 +87,14 @@ To run manually (for debugging):
 python mcp_server.py
 ```
 
+## 📚 Resources Used
+
+- [Educhain Library Documentation](https://pypi.org/project/educhain/)  
+  Comprehensive documentation for the Educhain Python library used for generating questions, lesson plans, and more.
+
+- [Model Context Protocol (MCP) Documentation](https://modelcontextprotocol.io/)  
+  Official documentation for Claude’s Model Context Protocol, which enables tool/resource integration in local AI environments.
+
 ---
 
 ## 📝 License

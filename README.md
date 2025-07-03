@@ -7,11 +7,17 @@ This project integrates the [Educhain](https://pypi.org/project/educhain/) libra
 ## 🚀 Features
 
 - 📝 Generate Multiple Choice Questions (MCQs)
-- 🧠 Create structured lesson plans
+- 🧠 Generate Image Description
 - 📺 Generate questions from YouTube videos
 - 📊 Generate questions from provided data source (e.g., text, pdf, url)
 - 🎨 Support for prompt templates
 - 🌐 Designed to work locally with Claude AI's Model Context Protocol (MCP)
+
+---
+
+## 🎥 Video Walkthrough
+Watch the complete walkthrough here:
+🔗 [Loom Video Link](https://www.loom.com/share/26866623e6284619b53000cf4f1804f8?sid=2272cffc-5f38-435f-b285-643edf7ef5a6)
 
 ---
 
@@ -20,7 +26,7 @@ This project integrates the [Educhain](https://pypi.org/project/educhain/) libra
 claude-mcp-educhain/
 ├── tools/
 │   ├── mcq_generator.py      # Tool: Generate MCQs
-│   ├── lesson_plan_gen.py    # Resource: Generate lesson plans
+│   ├── image_desc_gen.py     # Tool: Generate image description
 │   ├── youtube_qna.py        # Tool: Questions from YouTube
 │   └── ques_from_data.py     # Tool: Questions from data
 ├── mcp_server.py             # MCP server entry point
@@ -38,7 +44,7 @@ claude-mcp-educhain/
 | Name                                | Type      | File                 | Description                            |
 |-------------------------------------|-----------|----------------------|----------------------------------------|
 | `generate_multiple_choice_questions`| Tool      | `mcq_generator.py`   | Generate MCQs for a given topic        |
-| `generate_lesson_plan`              | Tool      | `lesson_plan_gen.py` | Returns a structured lesson plan       |
+| `generate_image_description`        | Tool      | `image_disc_gen.py`  | Returns a image description            |
 | `generate_questions_from_youtube`   | Tool      | `youtube_qna.py`     | Generate questions from YouTube videos |
 | `generate_questions_from_data`      | Tool      | `ques_from_data.py`  | Generate questions from provided data  |
 

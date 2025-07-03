@@ -1,6 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 from tools.mcq_generator import generate_mcqs
-from tools.lesson_plan_gen import generate_lesson_plan
+from tools.image_desc_gen import generate_image_desc
 from tools.youtube_qna import generate_questions_from_youtube_video
 from tools.ques_from_data import generate_questions_from_data_file
 
@@ -25,11 +25,11 @@ def generate_questions_from_data(source: str, source_type: str, num: int) -> dic
     """Generate questions from a data file (pdf, txt, url) using Educhain."""
     return generate_questions_from_data_file(source, source_type, num)
 
-# Tool 4: Lesson Plan Generator
+# Tool 4: Image Description Generator
 @mcp.tool()
-def lesson_plan_generator(topic: str, duration: int) -> dict:
-    """Get lesson plan for a topic using Educhain."""
-    return generate_lesson_plan(topic, duration)
+def generate_image_description(path: str) -> dict:
+    """Explain the diagram in detail using Educhain."""
+    return generate_image_desc(path)
 
 # Entry point
 if __name__ == "__main__":

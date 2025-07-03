@@ -38,7 +38,7 @@ claude-mcp-educhain/
 | Name                                | Type      | File                 | Description                            |
 |-------------------------------------|-----------|----------------------|----------------------------------------|
 | `generate_multiple_choice_questions`| Tool      | `mcq_generator.py`   | Generate MCQs for a given topic        |
-| `lessonplan://{topic}`              | Resource  | `lesson_plan_gen.py` | Returns a structured lesson plan       |
+| `generate_lesson_plan`              | Tool      | `lesson_plan_gen.py` | Returns a structured lesson plan       |
 | `generate_questions_from_youtube`   | Tool      | `youtube_qna.py`     | Generate questions from YouTube videos |
 | `generate_questions_from_data`      | Tool      | `ques_from_data.py`  | Generate questions from provided data  |
 
@@ -70,6 +70,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+### 4. Add API key (Google Gemini in this case)
+
+Create a `.env` file and add your Google Gemini API Key.
 
 ---
 
